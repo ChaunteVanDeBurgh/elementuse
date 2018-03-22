@@ -60,3 +60,34 @@ header nav li a:hover {
 	transition-property: color;
 	transition-duration: .4s;
 }
+
+@media only screen and (max-width: 768px) {
+	header #logo p {
+		font-size: 1.3rem;
+	}
+
+	#e {
+		width: 1.4rem;
+		height: 1.4rem;
+	}
+
+	header nav {
+		padding: .1rem;
+	}
+
+	header nav li {
+		padding: .1rem;
+	}
+
+	header nav li:nth-child(2) {
+		display: none;
+	}
+
+	header nav li:nth-child(3) {
+		display: none;
+	}
+
+	header nav li:nth-child(4) {
+		display: none;
+	}
+}
