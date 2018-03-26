@@ -19,6 +19,8 @@ create header on home page
 
 --start here
 create footer on home page and add to all pages
+	include creative commons license link
+	include nav bar (make sure it's in mobile version)
 
 switch title text around 
 
