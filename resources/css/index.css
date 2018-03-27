@@ -1,3 +1,5 @@
+/* Universal Styles */
+
 html {
 	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
@@ -6,6 +8,8 @@ html {
 p {
 	font-size: 2rem;
 }
+
+/* Header Section */
 
 header {
 	display: flex;
@@ -45,17 +49,17 @@ header {
 	transition-duration: .4s;
 }
 
-header nav {
+nav {
 	display: flex;
 	padding: .5rem;
 }
 
-header nav li {
+nav li {
 	display: inline-flex;	
 	padding: .5rem;
 }
 
-header nav li a:hover {
+nav li a:hover {
 	color: #8258FA;
 	transition-property: color;
 	transition-duration: .4s;
@@ -90,4 +94,26 @@ header nav li a:hover {
 	header nav li:nth-child(4) {
 		display: none;
 	}
+}
+
+/* Footer Section */
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 1px solid #8258FA;
+	padding-left: 1rem;
+	background-color: rgb(252, 211, 255);
+}
+
+#copyright:hover {
+	color: rgb(255, 134, 5);
+	transition-property: color;
+	transition-duration: .4s;
+}
+
+@media only screen and (max-width: 768px) {
+	footer nav li {
+		padding: 0rem;
+	}	
 }
