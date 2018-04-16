@@ -1,0 +1,6 @@
+#banner {
+	background-color: rgb(101,101,101);
+	background: radial-gradient(circle, 
+		rgba(101,101,101,1) 12%, 
+		rgba(238,174,202,1) 79%);
+}

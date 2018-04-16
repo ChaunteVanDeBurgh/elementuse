@@ -10,7 +10,6 @@ p {
 }
 
 h1 {
-	font-size: 3rem;
 	font-weight: bold;
 }
 
@@ -99,6 +98,88 @@ nav li a:hover {
 	header nav li:nth-child(4) {
 		display: none;
 	}
+}
+
+/* Main Section */
+
+/* Banner */
+
+#banner {
+	width: 100%;
+	height: 10rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 8rem;
+	color: white;
+}
+
+/* elements section */
+
+.element-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.element {
+	height: 4.4rem;
+	width: 4.4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: .7rem;
+	font-weight: bold;
+	font-size: 3.5rem;
+	padding: .5rem;
+}
+
+.element a {
+	color: white;
+}
+
+.material {
+	font-size: 2.3rem;
+}
+
+#cement {
+	background-image: url('../images/cement.jpg');
+	background-size: contain;
+	width: 8rem;
+}
+
+#aluminum {
+	background-image: url('../images/aluminum.jpg');
+}
+
+#antimony {
+	background-color: rgb(101,101,101);
+	background: radial-gradient(circle, 
+		rgba(101,101,101,1) 12%, 
+		rgba(238,174,202,1) 79%);
+}
+
+#silver {
+	background-image: url('../images/silver.jpg');
+	background-size: cover;
+}
+
+#helium {
+	background-color: red;
+}
+
+#asbestos {
+	background-image: url('../images/asbestos.jpg');
+	width: 10rem;
+}
+
+#asbestos a {
+	color: rgb(112, 35, 255);
+}
+
+#baryte {
+	background-image: url('../images/baryte.jpg');
+	width: 7rem;
 }
 
 /* Footer Section */
