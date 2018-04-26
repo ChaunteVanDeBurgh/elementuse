@@ -237,13 +237,92 @@ nav li a:hover {
 	font-size: 1.4rem;
 	padding-left: 0px;
 	padding-top: 0px;
+	margin-top: 1rem;
 }
 
 #sidebar li {
+	display: flex;
+	align-items: center;
 	width: 100%;
 	height: 2.1rem;
 	border-right: 1px solid grey;
 	border-bottom: 1px solid grey;
+}
+
+#sidebar li:nth-child(1) {
+	border-top: 1px solid grey;
+}
+
+.sidebar-icon {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 8px;
+	margin-right: .5rem;
+}
+
+#home-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #8258FA;
+	color: white;
+	font-weight: bold;
+}
+
+#aluminum-icon {
+	background-image: url('../images/aluminum.jpg');
+}
+
+#antimony-icon {
+	background-color: rgb(101,101,101);
+	background: radial-gradient(circle, 
+		rgba(101,101,101,1) 12%, 
+		rgba(238,174,202,1) 79%);
+}
+
+#asbestos-icon {
+	background-image: url('../images/asbestos.jpg');
+}
+
+#baryte-icon {
+	background-image: url('../images/baryte.jpg');
+}
+
+#helium-icon {
+	background-color: red;
+}
+
+#silver-icon {
+	background-image: url('../images/silver.jpg');
+	background-size: cover;
+}
+
+#titanium-icon {
+	background-image: url('../images/titanium.jpg');
+}
+
+#beryllium-icon {
+	background: rgb(65,18,38);
+	background: radial-gradient(circle, 
+		rgba(65,18,38,1) 0%, 
+		rgba(2,145,79,1) 65%);
+}
+
+#boron-icon {
+	background: rgb(101,101,101);
+	background: radial-gradient(circle, 
+		rgba(101,101,101,1) 0%, 
+		rgba(142,184,176,1) 100%);
+}
+
+#cement-icon {
+	background-image: url('../images/cement.jpg');
+	background-size: contain;
+}
+
+#sidebar li:hover {
+	color: blue;
+	border-color: blue;
 }
 
 /* Footer Section */
