@@ -1,0 +1,22 @@
+main {
+	height: 36rem;
+}
+
+#main {
+	justify-content: center;
+	align-items: center;
+}
+
+@-moz-document url-prefix() {
+	main {
+		height: 38rem;
+	}
+
+	#asbestos {
+		margin: 2rem;
+	}
+
+	#baryte {
+		margin: 2rem;
+	}
+}

@@ -2,3 +2,12 @@
 	background-image: url("../images/asbestos.jpg");
 	color: rgb(112, 35, 255);
 }
+
+#content {
+	justify-content: left;
+	padding: .8rem;
+}
+
+#content p:nth-child(2) {
+	padding-top: 1rem;
+}

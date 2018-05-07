@@ -1,3 +1,7 @@
 #banner {
 	background-image: url('../images/baryte.jpg');
 }
+
+#content p:nth-child(3) {
+	padding-top: 1rem;
+}

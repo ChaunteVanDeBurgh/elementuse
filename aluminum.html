@@ -9,6 +9,31 @@
 	<link href="resources/css/reset.css" rel="stylesheet" type="text/css">
 	<link href="resources/css/index.css" rel="stylesheet" type="text/css">
 	<link href="resources/css/aluminum.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+          ['Use', 'Percentage Used'],
+          ['Transportation applications',     41],
+          ['Packaging',      20],
+          ['Building',  14],
+          ['Electrical', 8],
+          ['Machinery',    7],
+          ['Consumer Durables', 7],
+          ['Other', 3]
+        ]);
+
+      var options = {
+        title: 'Uses for Aluminum',
+        is3D: true,
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
 </head>
 
 <body>
@@ -61,6 +86,11 @@
 				<a href="./cement.html"><li><div id="cement-icon" class="sidebar-icon"></div>Cement</li></a>
 			</ul>
 		</nav>
+
+		<div id="content">
+			<div id="piechart_3d"></div>
+		</div>
+		
 	</div>
 	</main>
 	<!-- footer -->

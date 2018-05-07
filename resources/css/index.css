@@ -13,6 +13,14 @@ h1 {
 	font-weight: bold;
 }
 
+/* Browser Rendering Optimization */
+
+@-moz-document url-prefix() {
+    html {
+    	font-size: 15px;
+    }
+}
+
 /* Header Section */
 
 header {
@@ -122,13 +130,13 @@ nav li a:hover {
 
 #main {
 	display: flex;
-	flex-wrap: nowrap;
+	justify-content: center;
 }
 
 /* elements section */
 #elements {
 	display: inline-flex;
-	width: 70%;
+	width: 90%;
 	flex-wrap: wrap;
 	align-items: center;
 }
@@ -177,6 +185,12 @@ nav li a:hover {
 	width: 8rem;
 }
 
+@-moz-document url-prefix() {
+	#cement {
+		width: 10rem;
+	}
+}
+
 #aluminum {
 	background-image: url('../images/aluminum.jpg');
 }
@@ -202,6 +216,12 @@ nav li a:hover {
 	width: 10rem;
 }
 
+@-moz-document url-prefix() {
+	#asbestos {
+		width: 12rem;
+	}
+}
+
 #asbestos a {
 	color: rgb(112, 35, 255);
 }
@@ -209,6 +229,12 @@ nav li a:hover {
 #baryte {
 	background-image: url('../images/baryte.jpg');
 	width: 7rem;
+}
+
+@-moz-document url-prefix() {
+	#baryte {
+		width: 9rem;
+	}
 }
 
 #boron {
@@ -323,6 +349,21 @@ nav li a:hover {
 #sidebar li:hover {
 	color: blue;
 	border-color: blue;
+}
+
+/* pie chart */
+
+#content {
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+	margin-left: 2rem;
+	line-height: 2rem;
+}
+
+#piechart_3d {
+	width: 100%;
+	height: 25rem;
 }
 
 /* Footer Section */

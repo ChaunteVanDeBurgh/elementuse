@@ -4,3 +4,12 @@
 		rgba(101,101,101,1) 12%, 
 		rgba(238,174,202,1) 79%);
 }
+
+#content {
+	flex-direction: column;
+	line-height: 2rem;
+}
+
+#piechart_3d {
+	height: 25rem;
+}

@@ -35,33 +35,38 @@ create nav bar layout
 	word on right 
 	normal font
 
+--issue closed
 add nav bar to all pages
 
 add pie graph to all pages
 
 add content to about FAQ and contact
 
+on home page make entire element div clickable link--not just words
+
 create favicon
 
 add responsive design
 
-cross browser optimization :( IE, Firefox, Edge, Safari ):
+cross browser optimization :( Firefox, Edge, Safari, IE ):
 
 PUBLISH!!!! :D
 
+add text content to each material 
+
 do social meta data
 
-add all elements from usgs mineral comodity summary
+add all elements from usgs mineral comodity summary 
 
 add all elements from periodic table
 
 use clever javascript for hover jumping?
 
-minimize file size for cement
+minimize file size for cement and other background images
 
 
 **** future ****
-processes
+processes (elementuse notation)
 products
 contribute
 	code
