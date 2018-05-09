@@ -3,20 +3,31 @@ main {
 }
 
 #main {
-	justify-content: center;
 	align-items: center;
+	margin-top: 2.5rem;
 }
 
 @-moz-document url-prefix() {
 	main {
 		height: 38rem;
+		font-size: .5rem;
+	}
+
+	#cement {
+		width: 8.7rem;
+		font-size: 2.1rem;
 	}
 
 	#asbestos {
-		margin: 2rem;
+		width: 8.7rem;
+		font-size: 1.8rem;
 	}
 
 	#baryte {
-		margin: 2rem;
+		width: 8.7rem;
+	}
+
+	#main {
+		margin-top: 3.2rem;
 	}
 }

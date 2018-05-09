@@ -185,12 +185,6 @@ nav li a:hover {
 	width: 8rem;
 }
 
-@-moz-document url-prefix() {
-	#cement {
-		width: 10rem;
-	}
-}
-
 #aluminum {
 	background-image: url('../images/aluminum.jpg');
 }
@@ -216,12 +210,6 @@ nav li a:hover {
 	width: 10rem;
 }
 
-@-moz-document url-prefix() {
-	#asbestos {
-		width: 12rem;
-	}
-}
-
 #asbestos a {
 	color: rgb(112, 35, 255);
 }
@@ -229,12 +217,6 @@ nav li a:hover {
 #baryte {
 	background-image: url('../images/baryte.jpg');
 	width: 7rem;
-}
-
-@-moz-document url-prefix() {
-	#baryte {
-		width: 9rem;
-	}
 }
 
 #boron {
