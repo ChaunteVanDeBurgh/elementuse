@@ -116,7 +116,6 @@ nav li a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 8rem;
 	color: white;
 	background-color: #8258FA;
 }
@@ -124,6 +123,13 @@ nav li a:hover {
 #banner p {
 	font-size: 5rem;
 	font-weight: bold;
+	color: white;
+}
+
+@media only screen and (max-width: 768px) {
+	#banner p {
+		font-size: 2.5rem;
+	}
 }
 
 /* main section */
