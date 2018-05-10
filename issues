@@ -44,8 +44,10 @@ add pie graph to all pages
 --issue closed
 add content to about FAQ and contact
 
+--issue closed
 on home page make entire element div clickable link--not just words
 
+--issue closed 
 create favicon
 
 add responsive design
@@ -56,6 +58,8 @@ cross browser optimization :( Firefox, Edge, Safari, IE ):
 add link to personal site in faq
 
 update file paths in all page heads
+
+update file paths in sidebars on ALL PAGES! freak.
 
 update email in contact
 
