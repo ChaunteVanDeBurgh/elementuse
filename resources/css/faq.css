@@ -1,0 +1,23 @@
+main p {
+	padding: 1rem;
+}
+
+#question {
+	background-color: #8258FA;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	margin-right: 1rem;
+}
+
+#content {
+	margin-top: 1rem;
+}
+
+a {
+	color: blue;
+}
+
+#i {
+	font-style: italic;
+}

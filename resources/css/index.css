@@ -161,13 +161,15 @@ nav li a:hover {
 	font-weight: bold;
 	font-size: 3.5rem;
 	padding: .5rem;
+	margin: 1px;
 }
 
 .element:hover {
+	margin: 0rem;
 	border: 1px solid blue;
 }
 
-.element a {
+.element {
 	color: white;
 }
 
@@ -208,9 +210,6 @@ nav li a:hover {
 #asbestos {
 	background-image: url('../images/asbestos.jpg');
 	width: 10rem;
-}
-
-#asbestos a {
 	color: rgb(112, 35, 255);
 }
 
