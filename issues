@@ -50,14 +50,25 @@ on home page make entire element div clickable link--not just words
 --issue closed 
 create favicon
 
+--start here
 add responsive design
+
+	change menu icon to arrow when viewing menu
+
+	add menu icon to all pages (it's on the aluminum page)
+
+	add mobile menu to all pages (it's on the aluminum page)
+
+	add paragraphs to sidebar on all pages
+
+	add about faq contact and copyright to mobilemenu
 
 --finished firefox now do edge safari and IE UUUUGGGGH
 cross browser optimization :( Firefox, Edge, Safari, IE ):
 
 add link to personal site in faq
 
-update file paths in all page heads
+update file paths in all page heads (./)
 
 update file paths in sidebars on ALL PAGES! freak.
 
