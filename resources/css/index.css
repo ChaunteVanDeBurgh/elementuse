@@ -276,6 +276,46 @@ nav li a:hover {
 
 #sidebar p {
 	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+#about {
+	display: none;
+}
+
+#faq {
+	display: none;
+}
+
+#contact {
+	display: none;
+}
+
+#about-icon {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	background-color: #8258FA;
+	color: white;
+	font-weight: bold;
+}
+
+#faq-icon {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	background-color: #8258FA;
+	color: white;
+	font-weight: bold;
+}
+
+#contact-icon {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	background-color: #8258FA;
+	color: white;
+	font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {
@@ -308,6 +348,30 @@ nav li a:hover {
 
 	#sidebar p {
 		padding-left: 2rem;
+	}
+
+	#about {
+		display: flex;
+	}
+
+	#faq {
+		display: flex;
+	}
+
+	#contact {
+		display: flex;
+	}
+
+	#about-icon {
+		display: flex;
+	}
+
+	#faq-icon {
+		display: flex;
+	}
+
+	#contact-icon {
+		display: flex;
 	}
 }
 
