@@ -82,6 +82,10 @@ nav li a:hover {
 	display: none;
 }
 
+#menu-close {
+	display: none;
+}
+
 @media only screen and (max-width: 768px) {
 	header #logo p {
 		font-size: 1.3rem;
@@ -98,6 +102,11 @@ nav li a:hover {
 
 	#menu-icon {
 		display: flex;	
+		padding: .5rem;
+	}
+
+	#menu-close {
+		display: none;
 		padding: .5rem;
 	}
 }
