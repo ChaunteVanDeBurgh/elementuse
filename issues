@@ -53,15 +53,26 @@ create favicon
 --start here
 add responsive design
 
+	--issue closed
 	change menu icon to arrow when viewing menu
 
+	issue closed
 	add menu icon to all pages (it's on the aluminum page)
 
+	--issue closed
 	add mobile menu to all pages (it's on the aluminum page)
 
+	--issue closed
 	add paragraphs to sidebar on all pages
 
+	--issue closed
 	add about faq contact and copyright to mobilemenu
+
+	--issue closed
+	change faq to lowercase on all pages
+
+  --start here
+	display content on all mobile pages
 
 --finished firefox now do edge safari and IE UUUUGGGGH
 cross browser optimization :( Firefox, Edge, Safari, IE ):
@@ -70,6 +81,7 @@ add link to personal site in faq
 
 update file paths in all page heads (./)
 
+--issue closed! yay
 update file paths in sidebars on ALL PAGES! freak.
 
 update email in contact

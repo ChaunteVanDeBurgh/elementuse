@@ -3,6 +3,7 @@ const mobileMenu = () => {
 	document.getElementById('banner').style.display = "none";
 	document.getElementById('menu-icon').style.display = "none";
 	document.getElementById('menu-close').style.display = "flex";
+	document.getElementById('content').style.display = "none";
 };
 
 const closeMenu = () => {
@@ -10,4 +11,5 @@ const closeMenu = () => {
 	document.getElementById('banner').style.display = "flex";
 	document.getElementById('menu-icon').style.display = "flex";
 	document.getElementById('menu-close').style.display = "none";
+	document.getElementById('content').style.display = "flex"
 };

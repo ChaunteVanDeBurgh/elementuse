@@ -1,7 +1,7 @@
-main p {
-	padding: 1rem;
+#example {
+	margin-left: 4rem;
 }
 
-#example {
-	padding-left: 4rem;
+#content p {
+	padding: 1rem;
 }

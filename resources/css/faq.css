@@ -1,4 +1,4 @@
-main p {
+#content p {
 	padding: 1rem;
 }
 
@@ -14,10 +14,7 @@ main p {
 	margin-top: 1rem;
 }
 
-a {
-	color: blue;
-}
-
 #i {
 	font-style: italic;
+	color: blue;
 }

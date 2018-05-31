@@ -291,8 +291,12 @@ nav li a:hover {
 	display: none;
 }
 
-#about-icon {
+#copyright {
 	display: none;
+}
+
+#about-icon {
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	background-color: #8258FA;
@@ -301,7 +305,7 @@ nav li a:hover {
 }
 
 #faq-icon {
-	display: none;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	background-color: #8258FA;
@@ -310,7 +314,7 @@ nav li a:hover {
 }
 
 #contact-icon {
-	display: none;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	background-color: #8258FA;
@@ -359,6 +363,10 @@ nav li a:hover {
 	}
 
 	#contact {
+		display: flex;
+	}
+
+	#copyright {
 		display: flex;
 	}
 
@@ -456,8 +464,9 @@ nav li a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-	#content {
-		display: none;
+	#piechart_3d {
+		width: 100%;
+		height: auto;
 	}
 }
 

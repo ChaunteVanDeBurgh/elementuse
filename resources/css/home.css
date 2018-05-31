@@ -7,6 +7,10 @@ main {
 	margin-top: 2.5rem;
 }
 
+#sidebar {
+	display: none;
+}
+
 @-moz-document url-prefix() {
 	main {
 		height: 38rem;
